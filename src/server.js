@@ -2,6 +2,7 @@ const express = require("express");
 const apiRouter = require("./routes");
 const multer = require("multer");
 require("dotenv").config();
+const path = require("path")
 
 const SERVER_PORT = process.env.SERVER_PORT || 8060
 
